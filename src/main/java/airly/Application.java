@@ -18,7 +18,7 @@ public class Application {
 
             if (apiKey == null)
                 throw new IllegalArgumentException("no api key");
-            
+
             AirlyService service = new AirlyService();
             service.setAPIkey(apiKey);
 
